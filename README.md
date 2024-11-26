@@ -14,13 +14,13 @@ A modern, responsive React-based RBAC dashboard that allows comprehensive user a
   - Granular permission assignment
   - Dynamic permission selection
 
-- Add search and filter capabilities
+- Search capabilities
 
 ## Tech Stack
 - React
 - Tailwind CSS
 - Lucide React Icons
-- State Management: React Hooks (useState)
+- State Management: React Hooks (useState, useReducer)
 
 ## Setup Instructions
 
@@ -39,9 +39,9 @@ yarn install
 
 3. Start the development server:
 ```bash
-npm start
+npm  run dev
 # or
-yarn start
+yarn run dev
 ```
 
 ## Security Considerations
